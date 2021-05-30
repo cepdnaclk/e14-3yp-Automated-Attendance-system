@@ -2,72 +2,50 @@
 layout: home
 permalink: index.html
 
-# Please update this with your repository name and title
-repository-name: eYY-3yp-project-template
-title:
+repository-name: e14-3yp-Automated-Attendance-system
+title: Automated Attendance system
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
-# Project Title
+# Automated Attendance system
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/14/018, ANURADHA WIJEWICKRAMA, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
+-  E/14/068, DE SILVA N.G.M.H.K., [e14068@eng.pdn.ac.lk](mailto:e14068@eng.pdn.ac.lk)
+-  E/14/243, SHEHAN DHINUKA, [e14243@eng.pdn.ac.lk](mailto:e14243@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Solution Architecture](#solution-architecture )
-3. [Hardware & Software Designs](#hardware-and-software-designs)
-4. [Testing](#testing)
-5. [Detailed budget](#detailed-budget)
-6. [Conclusion](#conclusion)
-7. [Links](#links)
+3. [Links](#links)
 
 ---
 
 ## Introduction
 
-Description of the real world problem and solution, impact
 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-
-![Sample Image](./images/sample.png)
+This project aims to automate the attendance procedure of an educational System using biometric technology. This replaces the traditional attendance marking methods to a fool Proof method.This will reduce the time spent in a lecture for attendance marking and increases the accuracy of the process.This will be a hand held device which is passed in the class while the lecture is going on. The students can simply place the finger over the sensor to mark the presence in their class.
 
 
 ## Solution Architecture
 
-High level diagram + description
+CO321- Embedded Systems
+    The fingerprint is recognized using a sensor. A LED display will be used to present the information about the student.
 
-## Hardware and Software Designs
+CO324- Network and Web Applications 
+    Data (finger print) is transmitted to a centralized server and confirmation of the finger print with the relevant details will be transmitted back in real time. Controlling of the network traffic occurs when there is large number of classes and large number of students will be considered as a design task and it will be designed to reduce the drawbacks.
 
-Detailed designs with many sub-sections
+CO325- Security
+    The data that is transmitted should be encrypted so that no other party can access or modify the data. 
 
-## Testing
-
-Testing done on hardware and software, detailed + summarized results
-
-## Detailed budget
-
-All items and costs
-
-| Item          | Quantity  | Unit Cost  | Total  |
-| ------------- |:---------:|:----------:|-------:|
-| Sample item   | 5         | 10 LKR     | 50 LKR |
-
-## Conclusion
-
-What was achieved, future developments, commercialization plans
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
+- <a href = "https://github.com/cepdnaclk/e14-3yp-Automated-Attendance-system" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e14-3yp-Automated-Attendance-system/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)
